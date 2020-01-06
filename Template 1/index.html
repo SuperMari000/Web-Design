@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="" />
+        <title>Template 1</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/Myframework Style.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style media query.css" />
+        
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script>
+        window.onload = function(){
+            var x = document.querySelectorAll('a[href="#"]');
+            for(i=0 ;i<x.length;i++){  
+                x[i].onclick = function(e){
+                    e.preventDefault();
+                };
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <nav class="temp-navbar">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">mario <span>inc.</span></a>
+	      
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#app-nav">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	      </button>
+	    </div>
+	
+	    <div class="navbar-collapse" id="app-nav">
+	      <ul class="items">
+		<li><a href="#">home</a></li>
+		<li><a href="#">about me</a></li>
+		<li><a href="#">messages</a></li>
+		<li><a href="#">items</a></li>
+		<li><a href="#">comments</a></li>
+		<li><a href="#">statstics</a></li>
+                <li class="dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <i class="fa fa-angle-down"></i></a>
+		  <ul class="dropdown-menu" id="dropdown">
+		    <li><a href="#">Create Item</a></li>
+		    <li><a href="#">Activity Log</a></li>
+		    <li><a href="#">Edit Profile</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Log out</a></li>
+		  </ul>
+		</li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<section class="slider" data-ride="carousel">
+	    <!--<ol class="carousel-indicators">
+		<li data-slide-to="0"></li>
+		<li data-slide-to="1"></li>
+		<li data-slide-to="2"></li>
+		<li data-slide-to="3"></li>
+		<li data-slide-to="4"></li>
+		<li data-slide-to="5"></li>
+		<li data-slide-to="6"></li>
+	    </ol>-->
+	    <div class="carousel-inner">
+		<article class="item">
+		    <img src="img/slider/pic 01.jpg" alt="pic 1">
+		    <!--<div class="carousel-caption">
+			....
+		    </div>-->
+		</article>
+		<!--<article class="item">
+		    <img src="img/pic 02.jpg" alt="pic 2">
+		</article>
+		<article class="item">
+		    <img src="img/pic 03.jpg" alt="pic 3">
+		</article>
+		<article class="item">
+		    <img src="img/pic 04.jpg" alt="pic 4">
+		</article>
+		<article class="item">
+		    <img src="img/pic 05.jpg" alt="pic 5">
+		</article>
+		<article class="item">
+		    <img src="img/pic 06.jpg" alt="pic 6">
+		</article>-->
+	    </div>
+	</section>
+	<section class="about">
+	    <div class="container">
+		<h1>meet our new template <span>mario inc.</span></h1>
+		<p>hello let me introduce our new template mario inc. created by mostafa shehab </p>
+	    </div>    
+	</section>
+	<section class="features">
+	    <div class="container">
+		<h1>our features</h1>
+		<div class="row-flex">
+		    <article>
+			<i class="fa fa-check fa-lg"></i>
+			<h4>100% responsive</h4>
+			<p>Here you can feel the color, size, line height and margins between paragraphs. Don?t forget to underline your links, they are an important visual marker for users.</p>
+		    </article>
+		    <article>
+			<i class="fa fa-thumbs-o-up fa-lg"></i>
+			<h4>retina ready</h4>
+			<p>Here you can feel the color, size, line height and margins between paragraphs. Don?t forget to underline your links, they are an important visual marker for users.</p>
+		    </article>
+		    <article>
+			<i class="fa fa-eye fa-lg"></i>
+			<h4>awesome display</h4>
+			<p>Here you can feel the color, size, line height and margins between paragraphs. Don?t forget to underline your links, they are an important visual marker for users.</p>
+		    </article>
+		    <article>
+			<i class="fa fa-pencil fa-lg"></i>
+			<h4>well documented</h4>
+			<p>Here you can feel the color, size, line height and margins between paragraphs. Don?t forget to underline your links, they are an important visual marker for users.</p>
+		    </article>
+		</div>
+	    </div>
+	</section>
+	
+	<section class="our-services">
+	    <div class="container">
+		<h1>our services</h1>
+		<section class="row-flex">
+		    <article class="row-flex">
+			<i class="fa fa-laptop fa-4x fa-fw"></i>
+			<div class="info">
+			    <h3>Responsive</h3>
+			    <p>Nam vel eleifend que fusce consequat pretium velit vitae. Vulputate nullam pharetra lorem laoreet. Etiam sollicitudin magna nullam.</p>
+			</div>
+		    </article>
+		    <article class="row-flex">
+			<i class="fa fa-clone fa-4x fa-fw"></i>
+			<div class="info">
+			    <h3>Cloud Services</h3>
+			    <p>Nam vel eleifend que fusce consequat pretium velit vitae. Vulputate nullam pharetra lorem laoreet. Etiam sollicitudin magna nullam.</p>
+			</div>
+		    </article>
+		    <article class="row-flex">
+			<i class="fa fa-lightbulb-o fa-4x fa-fw"></i>
+			<div class="info">
+			    <h3>Fresh Ideas</h3>
+			    <p>Nam vel eleifend que fusce consequat pretium velit vitae. Vulputate nullam pharetra lorem laoreet. Etiam sollicitudin magna nullam.</p>
+			</div>
+		    </article>
+		    <article class="row-flex">
+			<i class="fa fa-envelope-o fa-4x fa-fw"></i>
+			<div class="info">
+			    <h3>Attachments</h3>
+			    <p>Nam vel eleifend que fusce consequat pretium velit vitae. Vulputate nullam pharetra lorem laoreet. Etiam sollicitudin magna nullam.</p>
+			</div>
+		    </article>
+		    <article class="row-flex">
+			<i class="fa fa-star-o fa-4x fa-fw"></i>
+			<div class="info">
+			    <h3>Support Video</h3>
+			    <p>Nam vel eleifend que fusce consequat pretium velit vitae. Vulputate nullam pharetra lorem laoreet. Etiam sollicitudin magna nullam.</p>
+			</div>
+		    </article>
+		    <article class="row-flex">
+			<i class="fa fa-heart-o fa-4x fa-fw"></i>
+			<div class="info">
+			    <h3>Lovely Design</h3>
+			    <p>Nam vel eleifend que fusce consequat pretium velit vitae. Vulputate nullam pharetra lorem laoreet. Etiam sollicitudin magna nullam.</p>
+			</div>
+		    </article>
+		</section>
+	    </div>
+	</section>
+	
+	<section class="download">
+	    <div class="overlay">
+		<div class="container">
+		    <h1>Get Your Free Download Of Foundapp TODAY!</h1>
+		    <p>Present your smashing App to the world with a neat landing page template made with the powerful Foundation 6.</p>
+		    <div class="row-flex">
+			<section>
+			    <button>
+				<i class="fa fa-apple"></i> app store
+			    </button>
+			    <a href="#"><i class="fa fa-download"></i> download</a>
+			</section>
+			<section>
+			    <button>
+				<i class="fa fa-android "></i> google play
+			    </button>
+			    <a href="#"><i class="fa fa-download"></i> download</a>
+			</section>
+			<section>
+			    <button>
+				<i class="fa fa-windows"></i> windows store
+			    </button>
+			    <a href="#"><i class="fa fa-download"></i> download</a>
+			</section>
+		    </div>
+		</div>
+	    </div>
+	</section>
+	
+	<section class="producer-table">
+	    <div class="container">
+		<h1>our amazing producer</h1>
+		<div class="row-flex">
+		    <article>
+			<img src="img/producer/producer 04.png" alt="Producer 4" />
+			<h3>Free for Share</h3>
+			<p>Your likes, shares and comments helps us.</p>
+			<button>get pro</button>
+		    </article>
+		    <article>
+			<img src="img/producer/producer 01.png" alt="Producer 1" />
+			<h3>Web Orinted</h3>
+			<p>100% convertable to HTML/CSS layout.</p>
+			<button>get pro</button>
+		    </article>
+		    <article>
+			<img src="img/producer/producer 02.png" alt="Producer 2" />
+			<h3>Easy to Customize</h3>
+			<p>Vector-based shapes and minimum of layer styles.</p>
+			<button>get pro</button>
+		    </article>
+		    <article>
+			<img src="img/producer/producer 03.png" alt="Producer 3" />
+			<h3>Color Swatches</h3>
+			<p>Easy to add or change elements.</p>
+			<button>get pro</button>
+		    </article>
+		</div>
+	    </div>
+	</section>
+	
+	<section class="our-team">
+	    <div class="overlay">
+		<div class="container">
+		    <h1>meet our awesome team</h1>
+		    <div class="row-flex">
+			<article>
+			    <img src="img/amr diab.jpg" alt="Amr Diab" />
+			    <h3>amr diab</h3>
+			    <p>Lato is free web-font designed by Lukasz Dziedzic from Warsaw</p>
+			    <i class="fa fa-google-plus fa-lg"></i>
+			    <i class="fa fa-facebook"></i>
+			    <i class="fa fa-instagram"></i>
+			    <i class="fa fa-twitter"></i>
+			    <i class="fa fa-pinterest-p"></i>
+			</article>
+			<article>
+			    <img src="img/alexandra daddario.jpg" alt="Alexandra Daddario" />
+			    <h3>alexandra daddario</h3>
+			    <p>Your likes, shares and comments helps us</p>
+			    <i class="fa fa-google-plus fa-lg"></i>
+			    <i class="fa fa-facebook"></i>
+			    <i class="fa fa-instagram"></i>
+			    <i class="fa fa-twitter"></i>
+			    <i class="fa fa-pinterest-p"></i>
+			</article>
+			<article>
+			    <img src="img/Justin Bieber.jpg" alt="Justin Bieber" />
+			    <h3>justin bieber</h3>
+			    <p>Lato is free web-font designed by Lukasz Dziedzic from Warsaw</p>
+			    <i class="fa fa-google-plus fa-lg"></i>
+			    <i class="fa fa-facebook"></i>
+			    <i class="fa fa-instagram"></i>
+			    <i class="fa fa-twitter"></i>
+			    <i class="fa fa-pinterest-p"></i>
+			</article>
+			<article>
+			    <img src="img/kristen stewart.jpg" alt="kristen Stewart" />
+			    <h3>kristen stewart</h3>
+			    <p>Your likes, shares and comments helps us</p>
+			    <i class="fa fa-google-plus fa-lg"></i>
+			    <i class="fa fa-facebook"></i>
+			    <i class="fa fa-instagram"></i>
+			    <i class="fa fa-twitter"></i>
+			    <i class="fa fa-pinterest-p"></i>
+			</article>
+		    </div>
+		</div>
+	    </div>
+	</section>
+	
+	<section class="subscribe">
+	    <div class="container">
+		<h1>keep in touch</h1>
+		<p>sign up for newsletter dont worry about spam we hate it too.</p>
+		<form action="" method="">
+		    <div class="filed">
+			<input type="text" name=email placeholder="Write Your Email" autocomplete="off" />
+			<button><i class="fa fa-edit fa-lg"></i> subscribe</button>
+		    </div>
+		</form>
+	    </div>
+	</section>
+	
+	<section class="statistics">
+	    <div class="overlay">
+		<div class="container">
+		    <h1>our main statistics</h1>
+		    <div class="row-flex">
+		    <article>
+			<i class="fa fa-users fa-4x"></i>
+			<span>9,550</span>
+			<p>satisfied users</p>
+		    </article>
+		    <article>
+			<i class="fa fa-comments fa-4x"></i>
+			<span>25,600</span>
+			<p>posted comments</p>
+		    </article>
+		    <article>
+			<i class="fa fa-suitcase fa-4x"></i>
+			<span>3,260</span>
+			<p>projects done</p>
+		    </article>
+		    <article>
+			<i class="fa fa-support fa-4x"></i>
+			<span>95,360</span>
+			<p>tickets archieved</p>
+		    </article>
+		</div>
+		</div>
+	    </div>
+	</section>
+
+        <section class="our-skills">
+            <div class="container">
+		<h1>our skills</h1>
+		<div class="row-flex">
+		    <section class="progress-skills">
+			<div class="progress">
+			    <span class="brogress-bar">HTML5 / CSS3</span>
+			</div>
+			<div class="progress">
+			    <span class="brogress-bar">PHP / MYSQL</span>
+			</div>
+			<div class="progress">
+			    <span class="brogress-bar">Javascript / jQuery</span>
+			</div>
+			<div class="progress">
+			    <span class="brogress-bar">Wordpress</span>
+			</div>
+		    </section>
+		    <section class="info">
+			<h2>about the team</h2>
+			<p>we are specilised designed and programming team passionate about we design and ceating digital ideas we will transfer your idea to a digital dream and make your wish come true</p>
+			<button>talk with professional</button>
+		    </section>
+		</div>
+            </div>
+        </section>
+	
+	<section class="contact-us">
+	    <div class="overlay">
+		<div class="container">
+		    <i class="fa fa-headphones fa-5x"></i>
+		    <h1>tell us what you fell</h1>
+		    <p>fell free to contact us anytime</p>
+		    <form action="" method="">
+			<div class="row-flex">
+			    <section>
+				<input type="text" name="username" placeholder="Username" autocomplete="off" />
+				<input type="email" name="email" placeholder="Email" autocomplete="off" />
+				<input type="phone" name="phone" placeholder="Cell Phone" autocomplete="off" />
+			    </section>
+			    <section>
+				<textarea placeholder="Your Message"></textarea>
+				<input type="submit" value="Contact Us" />
+			    </section>
+			</div>
+		    </form>
+		</div>
+	    </div>
+	</section>
+	
+	<section class="our-clients">
+	    <div class="container">
+		<ul class="row-flex">
+		    <li><img src="img/our clients/BBC.png" alt="BBC" /></li>
+		    <li><img src="img/our clients/CNN.png" alt="CNN" /></li>
+		    <li><img src="img/our clients/FORBES.png" alt="FORBES" /></li>
+		    <li><img src="img/our clients/BITCOIN.png" alt="BITCOIN" /></li>
+		    <li><img src="img/our clients/VOGUE.png" alt="VOGUE" /></li>
+		    <li><img src="img/our clients/ITUNES.png" alt="ITUNES" /></li>
+		</ul>
+	    </div>
+	</section>
+	
+        <footer class="temp-footer">
+	    <div class="container">
+		<div class="row-flex">
+		    <section>
+			<h3>sitemap</h3>
+			<ul class="category">
+			    <li>home</li>
+			    <li>about</li>
+			    <li>messages</li>
+			    <li>items</li>
+			    <li>comments</li>
+			    <li>statstics</li>
+			    <li>design</li>
+			    <li>solutions</li>
+			    <li>contact</li>
+			</ul>
+			<ul class="social">
+			    <li><img src="img/social/facebook.png" alt="Facebook"></li>
+			    <li><img src="img/social/googleplus.png" alt="Google Plus"></li>
+			    <li><img src="img/social/twitter.png" alt="Twitter"></li>
+			    <li><img src="img/social/pinterest.png" alt="Pintresr"></li>
+			    <li><img src="img/social/rss.png" alt="Rss"></li>
+			    <li><img src="img/social/youtube.png" alt="Youtube"></li>
+			</ul>
+		    </section>
+		    <section>
+			<h3>latest articles</h3>
+			<article class="row-flex">
+			    <div class="pic">
+				<img src="img/footer/calendar.png" alt="Programming" />
+			    </div>
+			    <div class="post">
+				<h4>programming</h4>
+				<p>
+				    this is some text about programming describe the media of my framework
+				</p>
+			    </div>
+			</article>
+			<article class="row-flex">
+			    <div class="pic">
+				<img src="img/footer/book.png" alt="Coding" />
+			    </div>
+			    <div class="post">
+				<h4>coding</h4>
+				<p>
+				    this is some text about programming describe the media of my framework
+				</p>
+			    </div>
+			</article>
+			<article class="row-flex">
+			    <div class="pic">
+				<img src="img/footer/clipboard.png" alt="Web Design" />
+			    </div>
+			    <div class="post">
+				<h4>web design</h4>
+				<p>
+				    this is some text about programming describe the media of my framework
+				</p>
+			    </div>
+			</article>
+		    </section>
+		    <section>
+			<h3>our awesome work</h3>
+			<article>
+			    <img src="img/footer/foot 01.jpg" alt="Pic 1" />
+			    <img src="img/footer/foot 02.jpg" alt="Pic 2" />
+			    <img src="img/footer/foot 03.jpg" alt="Pic 3" />
+			    <img src="img/footer/foot 04.jpg" alt="Pic 4" />
+			</article>
+		    </section>
+		</div>
+	    </div>
+	    <div class="copyright">
+		copyright &copy; 2018 <span>mario</span> .inc
+	    </div>
+	</footer>
+    
+    </body>
+</html>

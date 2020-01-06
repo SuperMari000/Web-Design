@@ -1,0 +1,325 @@
+/* Start Main Rules */
+@media (max-width:767px){
+    h1{
+        line-height:2.8rem;
+    }
+}
+
+/* End Main Rules */
+
+/* Start Media Navbar */
+
+@media (max-width:767px){
+    .temp-navbar .navbar-header{
+        display:-webkit-flex;
+        display:-moz-flex;
+        display:-o-flex;
+        display:-ms-flex;
+        display:flex;
+        
+        -webkit-justify-content:space-between;
+        -moz-justify-content:space-between;
+        -o-justify-content:space-between;
+        -ms-justify-content:space-between;
+        justify-content:space-between;
+        -webkit-flex-basis:100%;
+        -moz-flex-basis:100%;
+        -o-flex-basis:100%;
+        -ms-flex-basis:100%;
+        flex-basis:100%;
+    }
+    .temp-navbar .navbar-header .navbar-brand{
+        padding-left:15px;
+    }
+    .temp-navbar .navbar-header .navbar-toggle{
+        display:block;
+    }
+    .temp-navbar .navbar-collapse{
+        display:none;
+    }
+}
+
+
+/* End Media Navbar */
+
+
+/* Start Media Features */
+
+@media (max-width:991px){
+    .features{
+        padding-bottom:20px;
+    }
+    .features .row-flex article{
+        width:50%;
+        margin-bottom:20px;
+    }
+    .features .row-flex article p{
+        line-height:1.4rem;
+    }
+}
+@media (max-width:767px){
+    .features .row-flex article{
+        width:100%;
+    }
+}
+
+
+
+/* End Media Features */
+
+/* Start Media Our Services */
+
+@media (max-width:991px){
+    .our-services .row-flex article{
+        width:50%;
+    }
+}
+@media (max-width:767px){
+    .our-services .row-flex article{
+        width:100%;
+    }
+}
+
+
+/* End Media Our Services */
+
+/* Start Media Download */
+
+@media (max-width:991px){
+    .download p{
+        line-height:1.9rem;
+    }
+    .download .row-flex{
+        width:80%;
+    }
+}
+@media (max-width:767px){
+    .download .overlay{
+        padding-bottom:25px
+    }
+    .download p{
+        line-height:1.7rem;
+        font-size:1rem;
+    }
+    .download .row-flex{
+        width:90%;
+    }
+    .download .row-flex > section{
+        margin:0 auto 10px
+    }
+}
+
+
+/* End Media Download */
+
+
+/* Start Media Price Table */
+
+@media (max-width:991px){
+    .producer-table{
+        padding-bottom:20px;
+    }
+    .producer-table .row-flex{
+        -webkit-justify-content:space-around;
+        -moz-justify-content:space-around;
+        -o-justify-content:space-around;
+        -ms-justify-content:space-around;
+        justify-content:space-around;
+    }
+    .producer-table .row-flex article{
+        width:40%;
+        margin-bottom:30px;
+    }
+}
+@media (max-width:767px){
+    .producer-table .row-flex article{
+        width:90%;
+    }
+}
+
+
+/* End Media Price Table */
+
+
+/* Start Media Our Team */
+
+@media (max-width:991px){
+    .our-team .row-flex{
+        -webkit-justify-content:space-around;
+        -moz-justify-content:space-around;
+        -o-justify-content:space-around;
+        -ms-justify-content:space-around;
+        justify-content:space-around;
+    }
+    .our-team .row-flex article{
+        width:40%;
+    }
+}
+
+@media (max-width:767px){
+    .our-team .row-flex article{
+        width:85%;
+    }
+}
+
+/* End Media Our Team */
+
+/* Start Media Subscribe */
+
+@media (max-width:991px){
+    .subscribe form .filed{
+        width:50%;
+    }
+}
+@media (max-width:767px){
+    .subscribe h1{
+        margin-bottom:15px;
+    }
+    .subscribe p{
+        line-height:1.7rem;
+    }
+    .subscribe form .filed{
+        width:90%;
+    }
+    .subscribe form button{
+        font-size:1rem;
+        line-height:1rem;
+        padding:10px 5px;
+    }
+
+}
+
+
+/* End Media Subscribe */
+
+/* Start Media Statistics  */
+
+@media (max-width:991px){
+    .statistics .row-flex article{
+        width:50%;
+        margin-bottom:20px;
+    }
+}
+@media (max-width:767px){
+    .statistics .row-flex article{
+        width:100%;
+    }
+}
+
+
+/* End Media Statistics  */
+
+/* Start Media Our Skills  */
+
+@media (max-width:991px){
+    .our-skills .row-flex section{
+        width:48%;
+    }
+
+    .our-skills .row-flex section:first-child{
+        width:43%;
+    }
+}
+
+@media (max-width:767px){
+    .our-skills .row-flex section{
+        width:100%;
+    }
+
+    .our-skills .row-flex section:first-child{
+        width:100%;
+        margin-bottom:10px
+    }
+    .our-skills .row-flex .info h2{
+        margin-bottom:-10px;
+    }
+}
+
+/* End Media Our Skills  */
+
+/* Start Media Contact Us  */
+
+@media (max-width:767px){
+    .contact-us form .row-flex section{
+        width:100%;
+    }
+    .contact-us form textarea{
+        margin-top:0;
+    }
+}
+
+
+
+/* End Media Contact Us  */
+
+/* Start Media Our Clients  */
+
+@media (max-width:767px){
+    .our-clients .row-flex li{
+        width:26%;
+        height:80px;
+    }
+}
+
+
+
+/* End Media Our Clients  */
+
+/* Start Media Our Footer  */
+
+@media (max-width:991px){
+    .temp-footer .row-flex section{
+        width:48%;
+    }
+    .temp-footer .row-flex section:nth-child(2) article{
+        margin-bottom:0px;
+    }
+    .temp-footer .row-flex section:nth-child(2) .row-flex .pic{
+        width:15%;
+    }
+    .temp-footer .row-flex section:nth-child(2) .row-flex .post{
+        width:81%;
+    }
+    .temp-footer .row-flex section:last-child{
+        width:100%;
+    }
+    .temp-footer .row-flex section:last-child article img{
+        width: 17%;
+        height:100px;
+    }
+}
+@media (max-width:767px){
+    .temp-footer .row-flex section{
+        width:100%;
+    }
+    .temp-footer .row-flex section{
+        padding:5px 0;
+    }
+    .temp-footer .row-flex section h3{
+        margin-bottom:5px;
+    }
+    .temp-footer .row-flex section:nth-child(2) .row-flex .pic{
+        width:15%;
+    }
+    .temp-footer .row-flex section:nth-child(2) .row-flex .post{
+        width:81%;
+    }
+    .temp-footer .row-flex section:last-child article{
+        margin-top:5px;
+    }
+    .temp-footer .row-flex section:last-child article img{
+        width: 23%;
+    }
+}
+
+
+/* End Media Our Footer  */
+
+
+
+
+
+
+
+
+

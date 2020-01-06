@@ -1,0 +1,338 @@
+/* Start Main Rules */
+
+body{
+    background-color:#F4F4F4;
+    font:14px/1.231 'LatoWeb', sans-serif;
+    font-size:17px;
+    
+}
+mark{
+    color:#8C8C8C;
+    color:#1abc9c
+}
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* End Main Rules */
+
+/* Start Tags Edit */
+
+h4{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+
+a ,a:active ,a:hover a:focus{
+    text-decoration:none;
+}
+
+
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* End Tags Edit */
+
+
+/* Start Login And Signup  Page */
+.window{
+    background-image:url('../img/login.jpg');
+    background-size:cover;
+    
+}
+
+.card{ z-index:1; }
+.signup-box{ z-index:2; }
+.container-login{ z-index:3; }
+.login-box{ z-index:4; }
+
+.login-box , .signup-box {
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+
+.card{
+    position:absolute;
+    top:calc(50% - 300px);
+    left:calc(50% - 180px);
+    right:calc(50% - 180px);
+    width:360px;
+    height:600px;
+    
+    transition:all 1s ease-in-out;
+    transform-style:preserve-3d;
+    font-size:100%;
+}
+
+.container-login{
+    position:relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    transition:all 1s ease-in-out;
+    transform-style:preserve-3d;
+}
+
+.login-box{
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding:20px;
+    background-color:rgba(0,0,0,.3);
+    border-radius:10px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,.5);
+}
+
+
+
+.login-box img{
+    display:block;
+    margin:30px auto;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    
+}
+.login-box h4{
+    padding-top:10px;
+    padding-bottom:25px;
+    color:#0B2F52;
+    font-size:30px;
+}
+
+
+
+.login-box .control-group{
+    margin:15px auto;
+    position:relative;
+}
+
+.login-box .control-group i{
+    position:absolute;
+    color:#bfc9ca;
+    top:14px;
+    right:13px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.login-box .login-field{
+    display:inline-block;
+    width:100%;
+    color: #34495e;
+    background-color: #FFF;
+    border: 2px solid #dce4ec;
+    padding: 11px 10px;
+    border-radius: 8px;
+    vertical-align: middle;
+    line-height: 20px;
+    transition: border linear .2s;
+}
+
+
+.login-box .login-field:focus{
+    border-color: #1abc9c;
+    outline:0px;
+}
+
+.login-box .login-field:focus + i{
+    color:#1abc9c;
+}
+
+.login-box .btn{
+    display: block;
+    width: 100%;
+    cursor:pointer;
+    outline: none;
+    vertical-align: middle;
+    line-height: 20px;
+    border-radius: 8px;
+    transition:all 0.25s;
+    box-shadow: none;
+    border: none;
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: none;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    background-color: #1abc9c;
+   
+}
+.login-box .btn:hover , .login-box .btn:focus{
+    background-color:#2fe2bf;
+}
+
+.login-box button.btn{
+    display: block;
+    width: 40%;
+    margin:45px auto 0;
+    background-color:#27ad60;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.login-box button.btn:hover, .login-box button.btn:focus {
+    background-color: #58d68d;
+}
+
+
+
+.signup-box{
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding:20px;
+    background-color:rgba(225,225,225,.3);
+    border-radius:10px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,.5);
+    transform:rotateY(180deg);
+
+}
+.signup-box img{
+    display:block;
+    margin:0px auto;
+    width:115px;
+    height:115px;
+    border-radius:50%;
+    
+}
+.signup-box h4{
+    margin-top:20px;
+    margin-bottom:15px;
+    color:#0B2F52;
+    font-size:30px;
+}
+.signup-box .control-group{
+    margin:10px auto;
+    position:relative;
+}
+.signup-box .control-group i{
+    position:absolute;
+    color:#bfc9ca;
+    top:12px;
+    right:13px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.signup-box .login-field{
+    display:inline-block;
+    width:100%;
+    color: #34495e;
+    background-color: #FFF;
+    border: 2px solid #dce4ec;
+    padding: 8px 8px 8px 8px;
+    border-radius: 6px;
+    vertical-align: middle;
+    line-height: 20px;
+    transition: border linear .2s;
+}
+.signup-box .control-group .col-6{
+    width:49%;
+}
+.signup-box .login-field:focus{
+    border-color: #1abc9c;
+    outline:0px;
+}
+
+.signup-box .login-field:focus + i{
+    color:#1abc9c;
+}
+
+
+.signup-box .btn{
+    display: block;
+    width: 100%;
+    cursor:pointer;
+    outline: none;
+    vertical-align: middle;
+    line-height: 20px;
+    border-radius: 8px;
+    transition:all 0.25s;
+    box-shadow: none;
+    border: none;
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: none;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    
+    background-color:#27ad60;
+   
+}
+.signup-box .btn:hover , .login-box .btn:focus{
+    background-color: #58d68d;
+}
+
+.signup-box button.btn{
+    display: block;
+    width: 40%;
+    margin:15px auto 0;
+    background-color: #1abc9c;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.signup-box button.btn:hover, .login-box button.btn:focus {
+    background-color:#2fe2bf;
+}
+
+
+.signup-box .form-group {
+    width:100%;
+    margin:5px 0 10px;
+    margin-right:20%;
+    overflow:hidden
+    
+}
+.signup-box .form-group select.select-box-5:focus{
+  border-color: #1abc9c;
+  outline: 0;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(26, 188, 156, .4);
+          box-shadow: inset 1px 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(26, 188, 156, .4);
+}
+
+.signup-box .form-group select.select-box-5 {
+    display: inline-block;
+    width: 32.2949%;
+    padding: 6px 4px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.text-center{
+    text-align:center;
+}
+
+
+/* end login and signup   page  */
+

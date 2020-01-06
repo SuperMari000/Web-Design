@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Welcome To My Website" />
+	<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="" />
+	<title>Login_Sign Up</title>
+	
+        
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+        
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body>
+        <div class="window" id="login-page">
+	    
+            <div class="card">
+                <div class="container-login">
+                    <section class="login-box">
+                        <img src="img/avatar.jpg" alt="Login Photo" />
+                        <h4 class="text-center">User Login</h4>
+                        <form action="" method="POST">
+			    <input type="hidden" name="form-control" value="login" />
+                            <div class="control-group">
+                                <input class="login-field" type="text" name="username" placeholder="Username Or Phone Number" required="required" autocomplete="off" />
+                                <i class="fa fa-user-circle"></i>
+                            </div>
+                            <div class="control-group">
+                                <input class="login-field" type="password" name="password" placeholder="Password" required="required" autocomplete="new-password" />
+                                <i class="fa fa-lock"></i>
+                            </div>
+                            <input class="btn" type="submit" value="Login" />
+                        </form>
+                        <button class="btn" id="rotate-signup">Sign Up</button>
+                    </section>
+		    
+                    <section class="signup-box">
+			<img src="img/avatar.jpg" alt="Login Photo" />
+                        <h4 class="text-center">User&nbsp;&nbsp;Sign Up</h4>
+                        <form action="" method="POST">
+			    <input type="hidden" name="form-control" value="signup" />
+			    <div class="control-group">
+                                <input class="login-field col-6" type="text" name="firstname" placeholder="First Name" required="required" autocomplete="off" />
+				<input class="login-field col-6" type="text" name="lastname" placeholder="Last Name" required="required" autocomplete="off" />
+                            </div>
+                            <div class="control-group">
+                                <input class="login-field" type="text" name="username" placeholder="Username" required="required" autocomplete="off" />
+                                <i class="fa fa-user-circle"></i>
+                            </div>
+			    <div class="control-group">
+                                <input class="login-field" type="phone" name="phone" placeholder="Phone Number" required="required" autocomplete="off" maxlength="11" />
+                                <i class="fa fa-mobile"></i>
+                            </div>
+                            <div class="control-group">
+                                <input class="login-field" type="password" name="password" placeholder="Password" required="required" autocomplete="new-password" />
+                                <i class="fa fa-lock"></i>
+                            </div>
+			    <div class="form-group">
+				<div class="input-filed">
+				    <select class="select-box-5" name="day">
+					<option value="0">Birth Day</option>
+					<!-- IN Java Script -->
+				    </select>
+				    <select class="select-box-5" name="month">
+					<option value="0">Birth Month</option>
+					<!-- IN Java Script -->
+				    </select>
+				    <select class="select-box-5" name="year">
+					<option value="0">Birth Year</option>
+					<!-- IN Java Script -->
+				    </select>
+				</div>
+			    </div>
+			    <div class="form-group">
+				<div class="input-filed">
+				    <select class="select-box-5" name="gender" id="gender">
+					<option value="0">Gender</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				    </select>
+				</div>
+			    </div>
+                            <input class="btn" type="submit" value="Sign Up" />
+                        </form>
+                        <button class="btn" id="rotate-login">Login</button>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <footer></footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
