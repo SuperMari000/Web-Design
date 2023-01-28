@@ -1,2 +1,2 @@
-# Web-Design
+# Web Design
 Responsive Web Design Templates
